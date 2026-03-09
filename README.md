@@ -41,9 +41,6 @@ author = {Lijie Yang and Yu Wang and Zhaohui Yang and Tongkai Xu and Lizhi Dang 
 - [Installation](#installation)
 - [Data Preparation](#data-preparation)
 - [Quick Start](#quick-start)
-- [Model Zoo](#model-zoo)
-- [Citation](#citation)
-- [Acknowledgement](#acknowledgement)
 
 ## Installation
 
