@@ -22,6 +22,18 @@
     <!-- /pypi-strip -->
 </p>
 
+<p align="center">
+    <!-- pypi-strip -->
+    <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/yanglijie-dev/mmPPT/blob/main/code/mmppt/docs/compare_sensor.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/yanglijie-dev/mmPPT/blob/main/code/mmppt/docs/compare_sensor.png">
+    <!-- /pypi-strip -->
+    <img alt="mmPPT" src="https://github.com/yanglijie-dev/mmPPT/blob/main/code/mmppt/docs/compare_sensor.png" width="1000">
+    <!-- pypi-strip -->
+    </picture><br>
+    <!-- /pypi-strip -->
+</p>
+
 This repository is an official implementation of the following paper:
 
 - **mmPPT: Hierarchical-serialization-enhanced point transformer for mmWave pedestrian reconstruction,**  *Lijie Yang, Yu Wang, Zhaohui Yang, Tongkai Xu, Lizhi Dang, Zhongyue Chen, Weipeng Mao,*  Information Fusion, Volume 127, Part B, 2026, 103835, ISSN 1566-2535.
