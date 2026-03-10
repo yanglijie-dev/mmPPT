@@ -1,7 +1,7 @@
 <p align="center">
     <!-- pypi-strip -->
     <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/yanglijie-dev/mmPPT/blob/main/code/mmppt/docs/overall_structure.pdf">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/yanglijie-dev/mmPPT/blob/main/code/mmppt/docs/overall_structure.png">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/XXXX/XXXX/main/docs/logo.png">
     <!-- /pypi-strip -->
     <img alt="mmPPT" src="https://raw.githubusercontent.com/XXXXX/XXXXX/main/docs/logo.png" width="400">
