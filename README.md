@@ -177,9 +177,8 @@ The data structure should be like this:
 	
 ## SMPL file Preparation
 ```
-cd ${proj_root}/code/mmppt/mmppt/utils/smplx_locked_head
-cat smpl_data.tar.gz.* > smpl_data_merged.tar.gz
-tar -zxf smpl_data_merged.tar.gz     
+Download smpl file from: https://drive.google.com/drive/folders/1PlFypJO8OrZ6ZMkBea1Umb2rriK-15q9?usp=sharing
+Then move the files into this path: ${proj_root}/code/mmppt/mmppt/utils/smplx_locked_head
 ```
 ## Quick Start
 
