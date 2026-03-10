@@ -149,7 +149,7 @@ The data structure should be like this:
             └── sequence_19/
 ```
 	
-
+## SMPL file Preparation
 
 ## Quick Start
 
@@ -161,7 +161,7 @@ Training config, log, tensorboard, and checkpoints will also be saved into the e
 export CUDA_VISIBLE_DEVICES=${CUDA_VISIBLE_DEVICES}
 # Direct (Recommended)
 export PYTHONPATH=./
-python tools/train.py --config-file ${CONFIG_PATH} --num-gpus ${NUM_GPU} --options save_path=${SAVE_PATH}
+python ./tools/train.py --config-file ${CONFIG_PATH} --num-gpus ${NUM_GPU} --options save_path=${SAVE_PATH}
 # Script
 sh scripts/train.sh -p ${INTERPRETER_PATH} -g ${NUM_GPU} -d ${DATASET_NAME} -c ${CONFIG_NAME} -n ${EXP_NAME}
 
@@ -170,17 +170,27 @@ sh scripts/train.sh -p ${INTERPRETER_PATH} -g ${NUM_GPU} -d ${DATASET_NAME} -c $
 For example:
 ```bash
 # Direct (Recommended)
-conda activate mmppt && cd /home/root/Documents/mmppt/code/mmppt/ && python ./tools/train.py --config-file ./configs/mmBody/mmppt-base.py --num-gpus 1 --options save_path="../output"
+conda activate mmppt && \
+export PYTHONPATH=${proj_root}/code/mmppt:$PYTHONPATH && \
+cd ${proj_root}/code/mmppt && \
+python ./tools/train.py --config-file ./configs/mmBody/mmppt-base.py --options save_path="../output"
+
 # By script
 # -p is default set as python and can be ignored
-conda activate mmppt && cd /home/root/Documents/mmppt/code/mmppt/ && sh scripts/train.sh -p python -g 1 -d mmBody -c mmppt-base.py -n mmppt-base
+conda activate mmppt && cd ${proj_root}/code/mmppt && sh scripts/train.sh -p python -g 1 -d mmBody -c mmppt-base -n my_exp
 ```
 ### Testing
 
 ```bash
-# By script (Based on experiment folder created by training script)
-sh scripts/test.sh -p ${INTERPRETER_PATH} -g ${NUM_GPU} -d ${DATASET_NAME} -n ${EXP_NAME} -w ${CHECKPOINT_NAME}
 # Direct
 export PYTHONPATH=./
 python tools/test.py --config-file ${CONFIG_PATH} --num-gpus ${NUM_GPU} --options save_path=${SAVE_PATH} weight=${CHECKPOINT_PATH}
+```
+For example:
+```bash
+# Direct
+conda activate mmppt && \
+export PYTHONPATH=${proj_root}/code/mmppt:$PYTHONPATH && \
+cd ${proj_root}/code/mmppt && \
+python ./tools/test.py --config-file ./configs/mmBody/mmppt-base.py --options save_path="../output" weight=../output/model_ckpt.pth
 ```
