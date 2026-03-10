@@ -24,7 +24,7 @@ Comparison between different algorithms
     <!-- /pypi-strip -->
 </p>
 
-Comparison between different modalities (our method is listed in the last column)
+Comparison between different modalities (our method is listed in the column "Radar" & "Radar + RGBD")
 <p align="center">
     <!-- pypi-strip -->
     <picture>
