@@ -1,0 +1,20 @@
+# ninja log v5
+24	16052	0	/home/root/Documents/PointTransformerV3/code/Pointcept/libs/pointops/build/temp.linux-x86_64-cpython-38/src/ball_query/ball_query_cuda.o	aefcbbf8da6c5ce4
+28	17308	0	/home/root/Documents/PointTransformerV3/code/Pointcept/libs/pointops/build/temp.linux-x86_64-cpython-38/src/sampling/sampling_cuda.o	d5243c4f0f4cc0c9
+24	18731	0	/home/root/Documents/PointTransformerV3/code/Pointcept/libs/pointops/build/temp.linux-x86_64-cpython-38/src/grouping/grouping_cuda.o	83289a37f7fdeb59
+27	18772	0	/home/root/Documents/PointTransformerV3/code/Pointcept/libs/pointops/build/temp.linux-x86_64-cpython-38/src/random_ball_query/random_ball_query_cuda.o	1e826d00f7a28e75
+25	18794	0	/home/root/Documents/PointTransformerV3/code/Pointcept/libs/pointops/build/temp.linux-x86_64-cpython-38/src/interpolation/interpolation_cuda.o	dc5a657394365236
+23	18920	0	/home/root/Documents/PointTransformerV3/code/Pointcept/libs/pointops/build/temp.linux-x86_64-cpython-38/src/attention/attention_cuda.o	4129abc1692da6d9
+22	19098	0	/home/root/Documents/PointTransformerV3/code/Pointcept/libs/pointops/build/temp.linux-x86_64-cpython-38/src/aggregation/aggregation_cuda.o	b47165ec37777d94
+29	19393	0	/home/root/Documents/PointTransformerV3/code/Pointcept/libs/pointops/build/temp.linux-x86_64-cpython-38/src/subtraction/subtraction_cuda.o	b7e5cd7cc6bdf977
+26	19403	0	/home/root/Documents/PointTransformerV3/code/Pointcept/libs/pointops/build/temp.linux-x86_64-cpython-38/src/knn_query/knn_query_cuda.o	d3047fc67b274b44
+22	37467	0	/home/root/Documents/PointTransformerV3/code/Pointcept/libs/pointops/build/temp.linux-x86_64-cpython-38/src/aggregation/aggregation_cuda_kernel.o	3ae187e295e9bd54
+28	37581	0	/home/root/Documents/PointTransformerV3/code/Pointcept/libs/pointops/build/temp.linux-x86_64-cpython-38/src/sampling/sampling_cuda_kernel.o	71bdf94de4c9af69
+29	37609	0	/home/root/Documents/PointTransformerV3/code/Pointcept/libs/pointops/build/temp.linux-x86_64-cpython-38/src/subtraction/subtraction_cuda_kernel.o	7f8bb90d421f0e63
+26	37847	0	/home/root/Documents/PointTransformerV3/code/Pointcept/libs/pointops/build/temp.linux-x86_64-cpython-38/src/knn_query/knn_query_cuda_kernel.o	cd8b8e72cc79c58d
+27	37987	0	/home/root/Documents/PointTransformerV3/code/Pointcept/libs/pointops/build/temp.linux-x86_64-cpython-38/src/random_ball_query/random_ball_query_cuda_kernel.o	ef15dffd9b5b451b
+24	38045	0	/home/root/Documents/PointTransformerV3/code/Pointcept/libs/pointops/build/temp.linux-x86_64-cpython-38/src/ball_query/ball_query_cuda_kernel.o	722aac3e5a14b66d
+26	38076	0	/home/root/Documents/PointTransformerV3/code/Pointcept/libs/pointops/build/temp.linux-x86_64-cpython-38/src/pointops_api.o	bf55b40b53de29d0
+25	38145	0	/home/root/Documents/PointTransformerV3/code/Pointcept/libs/pointops/build/temp.linux-x86_64-cpython-38/src/grouping/grouping_cuda_kernel.o	8fdc6ac3024d1051
+25	38282	0	/home/root/Documents/PointTransformerV3/code/Pointcept/libs/pointops/build/temp.linux-x86_64-cpython-38/src/interpolation/interpolation_cuda_kernel.o	d1b704ac49e7eba5
+23	38500	0	/home/root/Documents/PointTransformerV3/code/Pointcept/libs/pointops/build/temp.linux-x86_64-cpython-38/src/attention/attention_cuda_kernel.o	91118b43e8360e45
