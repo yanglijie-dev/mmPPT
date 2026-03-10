@@ -176,7 +176,11 @@ The data structure should be like this:
 ```
 	
 ## SMPL file Preparation
-
+```
+cd ${proj_root}/code/mmppt/mmppt/utils/smplx_locked_head
+cat smpl_data.tar.gz.* > smpl_data_merged.tar.gz
+tar -zxf smpl_data_merged.tar.gz     
+```
 ## Quick Start
 
 ### Training
