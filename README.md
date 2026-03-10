@@ -1,3 +1,4 @@
+Overall Structure
 <p align="center">
     <!-- pypi-strip -->
     <picture>
@@ -9,7 +10,8 @@
     </picture><br>
     <!-- /pypi-strip -->
 </p>
-Overall Structure
+
+Comparison between different algorithms
 <p align="center">
     <!-- pypi-strip -->
     <picture>
@@ -22,6 +24,7 @@ Overall Structure
     <!-- /pypi-strip -->
 </p>
 
+Comparison between different modalities (our method is listed in the last column)
 <p align="center">
     <!-- pypi-strip -->
     <picture>
